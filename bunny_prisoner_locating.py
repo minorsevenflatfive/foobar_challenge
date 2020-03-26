@@ -7,7 +7,7 @@ def solution(x,y):
     for _ in range(y-1):
         prisoner_id = prisoner_id + x
         x = x + 1
-    return prisoner_id
+    return str(prisoner_id)
 
 if __name__ == "__main__":
     inp = input().split()
